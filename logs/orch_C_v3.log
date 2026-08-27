@@ -1,0 +1,11 @@
+[STATUS] Droplet C sweep starting (v3): IP DROPLET_C, contexts [131072, 262144], fp8_kv_mode=True, model=mistralai/Ministral-3-14B-Instruct-2512-BF16, backstop=8h, 256K_timeout=3.5h, other_timeout=45m
+[STATUS] Warm-up discarded on C/131072 trial 1: Separate 10-request warm-up completed=10; output discarded, not counted as trial data.
+[STATUS] Warm-up discarded on C/131072 trial 2: Separate 10-request warm-up completed=10; output discarded, not counted as trial data.
+[STATUS] Warm-up discarded on C/131072 trial 3: Separate 10-request warm-up completed=10; output discarded, not counted as trial data.
+[STATUS] Trial failure on C/131072: Trial 3 raised: trial 3 on C/131072 did not finish before the point deadline (still running remotely, unconfirmed). Continuing to next trial.
+[STATUS] Point complete: C/131072 [only 2/3 trials produced valid results] [FlashInfer confirmed]: model=mistralai/Ministral-3-14B-Instruct-2512-BF16, max-num-seqs=512, reported concurrency=9.72, num_prompts per trial=50, trials_ok=2/3, warm-up=separate 10-request invocation before each trial (discarded), --save-detailed=verified on each accepted trial result file.
+[STATUS] Warm-up discarded on C/262144 trial 1: Separate 10-request warm-up completed=10; output discarded, not counted as trial data.
+[STATUS] Warm-up discarded on C/262144 trial 2: Separate 10-request warm-up completed=10; output discarded, not counted as trial data.
+[STATUS] Warm-up discarded on C/262144 trial 3: Separate 10-request warm-up completed=10; output discarded, not counted as trial data.
+[STATUS] Point complete: C/262144 [FlashInfer confirmed]: model=mistralai/Ministral-3-14B-Instruct-2512-BF16, max-num-seqs=512, reported concurrency=4.86, num_prompts per trial=50, trials_ok=3/3, warm-up=separate 10-request invocation before each trial (discarded), --save-detailed=verified on each accepted trial result file.
+[STATUS] Droplet C sweep finished: All assigned contexts processed or skipped: [131072, 262144]

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: If you use this sweep, please cite it.
+title: Context-length inference cost sweep on Ministral 3 14B
+authors:
+  - family-names: Baranwal
+    given-names: Vinayak
+date-released: "2026-08-26"
+license: Apache-2.0
+repository-code: https://github.com/vinayakbaranwal12/context-length-inference-cost
+type: software

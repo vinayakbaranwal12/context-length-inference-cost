@@ -1,0 +1,54 @@
+[STATUS] Droplet A sweep starting (v4): IP DROPLET_A, contexts [2048, 4096, 8192, 16384], fp8_kv_mode=False, model=mistralai/Ministral-3-14B-Instruct-2512-BF16, backstop=8h, 256K_timeout=3.5h, other_timeout=45m
+[LOG] ctx=2048: EXPECTED_CONCURRENCY populated = 311 (boot reported 311.02x)
+[LOG] A/2048: EXPECTED_CONCURRENCY[2048] = 311
+[LOG] ctx=2048: conc=311 num_prompts=2488 turnovers=8.00 est_duration=268s probe_rate=9.279 req/s deadline_limited=False
+[STATUS] Warm-up discarded on A/2048 trial 1: Separate 10-request warm-up completed=10; output discarded, not counted as trial data.
+[LOG] A/2048 trial1: vLLM reported 334, true concurrency 311 (bucketing artifact, expected)
+[LOG] A/2048 trial1 accepted: ok: duration=265.6s completed=2488 conc=311 turnovers=8.00
+[STATUS] Warm-up discarded on A/2048 trial 2: Separate 10-request warm-up completed=10; output discarded, not counted as trial data.
+[LOG] A/2048 trial2: vLLM reported 333, true concurrency 311 (bucketing artifact, expected)
+[LOG] A/2048 trial2 accepted: ok: duration=266.1s completed=2488 conc=311 turnovers=8.00
+[STATUS] Warm-up discarded on A/2048 trial 3: Separate 10-request warm-up completed=10; output discarded, not counted as trial data.
+[LOG] A/2048 trial3: vLLM reported 335, true concurrency 311 (bucketing artifact, expected)
+[LOG] A/2048 trial3 accepted: ok: duration=265.9s completed=2488 conc=311 turnovers=8.00
+[STATUS] Point complete: A/2048: model=mistralai/Ministral-3-14B-Instruct-2512-BF16, max-num-seqs=512, reported concurrency=311.02, num_prompts per trial=2488, trials_ok=3/3, warm-up=separate 10-request invocation before each trial (discarded), --save-detailed=verified on each accepted trial result file.
+[LOG] ctx=4096: EXPECTED_CONCURRENCY populated = 155 (boot reported 155.51x)
+[LOG] A/4096: EXPECTED_CONCURRENCY[4096] = 155
+[LOG] ctx=4096: conc=155 num_prompts=1240 turnovers=8.00 est_duration=272s probe_rate=4.560 req/s deadline_limited=False
+[STATUS] Warm-up discarded on A/4096 trial 1: Separate 10-request warm-up completed=10; output discarded, not counted as trial data.
+[LOG] A/4096 trial1: vLLM reported 164, true concurrency 155 (bucketing artifact, expected)
+[LOG] A/4096 trial1 accepted: ok: duration=269.4s completed=1240 conc=155 turnovers=8.00
+[STATUS] Warm-up discarded on A/4096 trial 2: Separate 10-request warm-up completed=10; output discarded, not counted as trial data.
+[LOG] A/4096 trial2: vLLM reported 164, true concurrency 155 (bucketing artifact, expected)
+[LOG] A/4096 trial2 accepted: ok: duration=269.4s completed=1240 conc=155 turnovers=8.00
+[STATUS] Warm-up discarded on A/4096 trial 3: Separate 10-request warm-up completed=10; output discarded, not counted as trial data.
+[LOG] A/4096 trial3: vLLM reported 164, true concurrency 155 (bucketing artifact, expected)
+[LOG] A/4096 trial3 accepted: ok: duration=269.5s completed=1240 conc=155 turnovers=8.00
+[STATUS] Point complete: A/4096: model=mistralai/Ministral-3-14B-Instruct-2512-BF16, max-num-seqs=512, reported concurrency=155.51, num_prompts per trial=1240, trials_ok=3/3, warm-up=separate 10-request invocation before each trial (discarded), --save-detailed=verified on each accepted trial result file.
+[LOG] ctx=8192: EXPECTED_CONCURRENCY populated = 77 (boot reported 77.76x)
+[LOG] A/8192: EXPECTED_CONCURRENCY[8192] = 77
+[LOG] ctx=8192: conc=77 num_prompts=616 turnovers=8.00 est_duration=285s probe_rate=2.164 req/s deadline_limited=False
+[STATUS] Warm-up discarded on A/8192 trial 1: Separate 10-request warm-up completed=10; output discarded, not counted as trial data.
+[LOG] A/8192 trial1: vLLM reported 82, true concurrency 77 (bucketing artifact, expected)
+[LOG] A/8192 trial1 accepted: ok: duration=281.0s completed=616 conc=77 turnovers=8.00
+[STATUS] Warm-up discarded on A/8192 trial 2: Separate 10-request warm-up completed=10; output discarded, not counted as trial data.
+[LOG] A/8192 trial2: vLLM reported 82, true concurrency 77 (bucketing artifact, expected)
+[LOG] A/8192 trial2 accepted: ok: duration=281.1s completed=616 conc=77 turnovers=8.00
+[STATUS] Warm-up discarded on A/8192 trial 3: Separate 10-request warm-up completed=10; output discarded, not counted as trial data.
+[LOG] A/8192 trial3: vLLM reported 82, true concurrency 77 (bucketing artifact, expected)
+[LOG] A/8192 trial3 accepted: ok: duration=281.2s completed=616 conc=77 turnovers=8.00
+[STATUS] Point complete: A/8192: model=mistralai/Ministral-3-14B-Instruct-2512-BF16, max-num-seqs=512, reported concurrency=77.76, num_prompts per trial=616, trials_ok=3/3, warm-up=separate 10-request invocation before each trial (discarded), --save-detailed=verified on each accepted trial result file.
+[LOG] ctx=16384: EXPECTED_CONCURRENCY populated = 38 (boot reported 38.88x)
+[LOG] A/16384: EXPECTED_CONCURRENCY[16384] = 38
+[LOG] ctx=16384: conc=38 num_prompts=304 turnovers=8.00 est_duration=309s probe_rate=0.983 req/s deadline_limited=False
+[STATUS] Warm-up discarded on A/16384 trial 1: Separate 10-request warm-up completed=10; output discarded, not counted as trial data.
+[LOG] A/16384 trial1: vLLM reported 41, true concurrency 38 (bucketing artifact, expected)
+[LOG] A/16384 trial1 accepted: ok: duration=306.9s completed=304 conc=38 turnovers=8.00
+[STATUS] Warm-up discarded on A/16384 trial 2: Separate 10-request warm-up completed=10; output discarded, not counted as trial data.
+[LOG] A/16384 trial2: vLLM reported 41, true concurrency 38 (bucketing artifact, expected)
+[LOG] A/16384 trial2 accepted: ok: duration=307.0s completed=304 conc=38 turnovers=8.00
+[STATUS] Warm-up discarded on A/16384 trial 3: Separate 10-request warm-up completed=10; output discarded, not counted as trial data.
+[LOG] A/16384 trial3: vLLM reported 41, true concurrency 38 (bucketing artifact, expected)
+[LOG] A/16384 trial3 accepted: ok: duration=307.2s completed=304 conc=38 turnovers=8.00
+[STATUS] Point complete: A/16384: model=mistralai/Ministral-3-14B-Instruct-2512-BF16, max-num-seqs=512, reported concurrency=38.88, num_prompts per trial=304, trials_ok=3/3, warm-up=separate 10-request invocation before each trial (discarded), --save-detailed=verified on each accepted trial result file.
+[STATUS] Droplet A sweep finished: All assigned contexts processed or skipped: [2048, 4096, 8192, 16384]

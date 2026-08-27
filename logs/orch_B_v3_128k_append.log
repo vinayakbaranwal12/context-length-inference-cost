@@ -1,0 +1,4 @@
+[STATUS] Append trials starting on B/131072: Will run trial indices [3] only (not redoing existing). model=mistralai/Ministral-3-14B-Instruct-2512-BF16, fp8_kv=False, budget_min=45
+[STATUS] Warm-up discarded on B/131072 trial 3 (append): Separate 10-request warm-up completed=10; discarded.
+[STATUS] Append trial ok: B/131072 trial 3: Verified --save-detailed result.
+[STATUS] Append finished: B/131072: Requested trials [3]; newly completed this append: 1.

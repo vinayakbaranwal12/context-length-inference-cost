@@ -1,6 +1,6 @@
 # Context Length and Inference Cost on a Dedicated H200
 
-Raw measurements for the DigitalOcean Community article *[Does Context Length Affect Inference Cost Linearly? We Measured Why It Doesn't](https://www.digitalocean.com/community/tutorials/does-context-length-affect-inference-cost-linearly)* (forthcoming).
+Raw measurements for the DigitalOcean Community article *[Does Context Length Affect Inference Cost Linearly? We Measured Why It Doesn't](https://www.digitalocean.com/community/tutorials/does-context-length-affect-inference-cost-linearly)*.
 
 Ministral 3 14B Instruct, served with vLLM 0.27.1 on a single NVIDIA H200 GPU Droplet, swept across 2K, 4K, 8K, 16K, 32K, 64K, 128K, and 256K tokens of input context. The headline finding in the article is a **3.84x** rise in effective cost per million total tokens from 2K ($0.0650/1M) to 256K ($0.2500/1M) at 100% utilization, driven by KV-cache pool capacity collapsing from 311 concurrent requests to 2.
 
